@@ -1,0 +1,63 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 40px;
+  background: var(--purple);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+
+  font-family: 'Caveat', cursive;
+  font-size: 30px;
+  font-weight: 700;
+
+  color: var(--green-dark);
+}
+
+.logo .balloon {
+  width: 40px;
+  height: 40px;
+
+  display: grid;
+  place-items: center;
+
+  border-radius: 50%;
+
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+
+  color: var(--green);
+
+  background: radial-gradient(
+    circle at 35% 30%,
+    #cdeccd,
+    #9fd99f
+  );
+
+  box-shadow: inset -3px -3px 6px rgba(0,0,0,.15);
+}
+
+.nav-links {
+  display: flex;
+  gap: 16px;
+}
+
+.nav-links a {
+  background: var(--purple-light);
+  padding: 8px 22px;
+  border-radius: 14px;
+
+  font-size: 14px;
+  color: #4a4a7a;
+
+  transition: filter .15s;
+}
+
+.nav-links a:hover {
+  filter: brightness(1.08);
+}

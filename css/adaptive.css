@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+
+  .nav {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .section {
+    padding: 30px 20px;
+  }
+
+}

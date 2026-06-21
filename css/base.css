@@ -1,0 +1,34 @@
+:root {
+  --purple: #8b8bea;
+  --purple-light: #a9a9ef;
+
+  --grey: #d9d9d9;
+  --grey-light: #e2e2e2;
+
+  --green: #8cc88c;
+  --green-dark: #76b876;
+
+  --orange: #f5a623;
+  --orange-dark: #e89610;
+
+  --white: #ffffff;
+  --text: #1f1f1f;
+}
+
+body {
+  font-family: 'Comfortaa', sans-serif;
+  color: var(--text);
+  background: var(--purple);
+}
+
+.section {
+  padding: 50px 40px;
+}
+
+.bg-grey {
+  background: var(--grey-light);
+}
+
+.bg-purple {
+  background: var(--purple);
+}
